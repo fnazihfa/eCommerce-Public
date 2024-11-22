@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "==2.2.3"
+numpy = "==2.1.2"
+seaborn = "==0.13.2"
+matplotlib = "==3.9.2"
+geopandas = "==1.0.1"
+streamlit = "==1.39.0"
+babel = "==2.16.0"
+folium = "==0.18.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.13"
